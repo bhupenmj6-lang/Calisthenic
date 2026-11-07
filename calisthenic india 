@@ -1,0 +1,13 @@
+# 1. Initialize git and set branch to main
+git init
+git branch -M main
+
+# 2. Add your GitHub repository as origin
+git remote add origin https://github.com/bhupenmj6-lang/Calisthenic-3D.git
+
+# 3. Stage and commit all files
+git add .
+git commit -m "Calisthenics India: Full App, 77 Exercises, Owner Control & GitHub Actions"
+
+# 4. Push to your repository
+git push -u origin main --force
